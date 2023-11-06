@@ -1,0 +1,56 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/*styling of nav bar */
+.navbar {
+  text-transform: uppercase;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  padding: 20px 40px 20px 20px;
+  align-items: center;
+}
+.brand-name {
+  font-size: 25px;
+}
+.navbar-links ul {
+  margin: 0;
+  display: flex;
+}
+.navbar-links li {
+  list-style: none;
+  padding: 30px;
+  font-size: 20px;
+}
+.navbar-links li a {
+  text-decoration: none;
+  color: black;
+  padding: 0px 20px;
+  display: block;
+}
+.navbar-links li a:hover {
+  color: rgba(102, 132, 120, 0.951);
+}
+
+/*toggle bar and button styling*/
+
+.toggle-button {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 30px;
+  height: 21px;
+}
+.toggle-button .bar {
+  height: 3px;
+  width: 100%;
+  background-color: black;
+  border-radius: 10px;
+}
