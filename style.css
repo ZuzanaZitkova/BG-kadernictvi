@@ -78,10 +78,10 @@
 /*introduction part styling */
 
 .hero_introduction {
-  background-image: url('/hair-test.png');
-  background-color: rgba(191, 184, 184, 0.382);
+  background-image: url('hair-test.jpg');
+  background-repeat: no-repeat;
   background-size: cover;
-  padding: 200px 50px 200px 50px;
+  padding: 200px 50px 400px 50px;
 
   display: block;
 }
