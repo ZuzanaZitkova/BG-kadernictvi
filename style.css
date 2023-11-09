@@ -93,11 +93,11 @@
 .introduction-wrap .primary_heading {
   font-family: 'Montserrat', sans-serif;
   color: white;
-  font-size: 25px;
+  font-size: 20px;
   text-align: center;
   text-transform: uppercase;
   font-weight: 300;
-  padding-top: 30px;
+  padding-top: 50px;
   letter-spacing: 10px;
 }
 
@@ -108,6 +108,28 @@
   text-align: center;
   text-transform: uppercase;
   font-weight: 300;
-  padding-top: 10px;
+  padding-top: 20px;
+  padding-bottom: 30px;
   letter-spacing: 10px;
+}
+.secondary_heading {
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  font-size: 15px;
+  margin: 0 auto;
+  font-weight: 300;
+  text-align: center;
+  padding-top: 10px;
+  letter-spacing: 2px;
+  display: block;
+  max-width: 600px;
+}
+
+.introduction-wrap .main_heading:after {
+  content: ''; /* This is necessary for the pseudo element to work. */
+  display: block; /* This will put the pseudo element on its own line. */
+  margin: 0 auto; /* This will center the border. */
+  width: 20%; /* Change this to whatever width you want. */
+  padding-top: 20px; /* This creates some space between the element and the border. */
+  border-bottom: 1px solid white;
 }
