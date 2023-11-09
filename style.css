@@ -78,14 +78,16 @@
 /*introduction part styling */
 
 .hero_introduction {
-  background: url('hair-test.jpg');
+  background: url('hair-style.jpeg');
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
   padding: 200px 50px 400px 50px;
   display: block;
 }
 .introduction-wrap {
   background-color: rgba(255, 255, 255, 0.138);
+  max-width: 1800px;
 }
 
 .introduction-wrap .primary_heading {
@@ -95,8 +97,17 @@
   text-align: center;
   text-transform: uppercase;
   font-weight: 300;
-  padding-top: 100px;
+  padding-top: 30px;
   letter-spacing: 10px;
 }
 
-.introduction-wrap .;
+.introduction-wrap .main_heading {
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  font-size: 40px;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 300;
+  padding-top: 10px;
+  letter-spacing: 10px;
+}
