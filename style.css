@@ -138,16 +138,21 @@
 
 /*intoruction button styling*/
 
-.button_services {
-  padding: 10px 50px;
-  font-size: 20px;
+.introduction_buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.button_services,
+.button_contact {
+  display: flex;
+  padding: 10px 40px;
+  font-size: 18px;
+  margin: 30px;
   border-radius: 5px;
   background-color: rgb(185, 142, 163);
   color: white;
   border: solid 1px rgb(185, 142, 163);
-  display: flex;
-  margin: 40px auto;
   font-family: 'Montserrat', sans-serif;
-  font-weight: 100;
+  font-weight: 200;
 }
-.
