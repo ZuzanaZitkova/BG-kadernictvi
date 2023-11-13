@@ -89,7 +89,7 @@
 .hero_introduction {
   background-color: rgba(246, 246, 246, 0.177);
   max-width: 2000px;
-  height: 900px;
+  height: 800px;
   margin: 0px auto;
 }
 
@@ -100,7 +100,7 @@
   text-align: center;
   text-transform: uppercase;
   font-weight: 300;
-  padding-top: 300px;
+  padding-top: 250px;
   letter-spacing: 10px;
 }
 
