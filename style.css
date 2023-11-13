@@ -81,15 +81,16 @@
   background: url('hair-style.jpeg');
   background-repeat: no-repeat;
   background-size: cover;
+  max-height: 1000px;
+  max-width: 2000px;
   background-position: center;
-  padding: 200px 50px 400px 50px;
   display: block;
 }
 .hero_introduction {
-  background-color: rgba(255, 255, 255, 0.138);
-  max-width: 800px;
-  height: 400px;
-  margin: 0 auto;
+  background-color: rgba(246, 246, 246, 0.177);
+  max-width: 2000px;
+  height: 900px;
+  margin: 0px auto;
 }
 
 .primary_heading {
@@ -99,7 +100,7 @@
   text-align: center;
   text-transform: uppercase;
   font-weight: 300;
-  padding-top: 50px;
+  padding-top: 300px;
   letter-spacing: 10px;
 }
 
