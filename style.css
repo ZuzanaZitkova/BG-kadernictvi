@@ -156,3 +156,10 @@
   font-family: 'Montserrat', sans-serif;
   font-weight: 200;
 }
+
+.button_contact:hover,
+.button_services:hover {
+  cursor: pointer;
+  background-color: rgba(115, 118, 115, 0.733);
+  border: solid 1px rgba(115, 118, 115, 0.733);
+}
