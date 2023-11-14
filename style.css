@@ -21,7 +21,7 @@
   width: 100%;
   height: 100px;
   box-shadow: rgba(0, 0, 0, 0) 0px 0px 10px 0px;
-  background-color: rgba(248, 248, 248, 0.192);
+  background-color: #ffffff4f;
 }
 .brand-name {
   font-size: 25px;
@@ -42,7 +42,7 @@
   display: block;
 }
 .navbar-links li a:hover {
-  color: rgba(102, 132, 120, 0.951);
+  color: #afba95;
 }
 
 /*toggle bar and button styling*/
@@ -96,10 +96,10 @@
 .primary_heading {
   font-family: 'Montserrat', sans-serif;
   color: white;
-  font-size: 20px;
+  font-size: 40px;
   text-align: center;
   text-transform: uppercase;
-  font-weight: 300;
+  font-weight: 400;
   padding-top: 250px;
   letter-spacing: 10px;
 }
@@ -151,9 +151,9 @@
   font-size: 18px;
   margin: 30px;
   border-radius: 5px;
-  background-color: rgb(185, 142, 163);
+  background-color: #a7a9c2c3;
   color: white;
-  border: solid 1px rgb(185, 142, 163);
+  border: solid 1px #a7a9c2ce;
   font-family: 'Montserrat', sans-serif;
   font-weight: 200;
 }
@@ -161,6 +161,6 @@
 .button_contact:hover,
 .button_services:hover {
   cursor: pointer;
-  background-color: rgba(115, 118, 115, 0.733);
-  border: solid 1px rgba(115, 118, 115, 0.733);
+  background-color: #afba95ca;
+  border: solid 1px #afba95d2;
 }
