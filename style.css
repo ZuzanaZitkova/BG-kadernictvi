@@ -78,7 +78,7 @@
 /*introduction part styling */
 
 .wrapper-start {
-  background: url('hair-style.jpeg');
+  background: url('lady-hair.jpeg');
   background-repeat: no-repeat;
   background-size: cover;
   max-height: 1000px;
@@ -87,7 +87,7 @@
   display: block;
 }
 .hero_introduction {
-  background-color: rgba(246, 246, 246, 0.177);
+  background-color: rgba(124, 109, 109, 0.349);
   max-width: 2000px;
   height: 800px;
   margin: 0px auto;
