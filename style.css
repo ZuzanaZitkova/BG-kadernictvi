@@ -148,32 +148,32 @@
 
 .button_contact {
   display: flex;
-  padding: 10px 40px;
-  font-size: 18px;
+  padding: 10px 60px;
+  font-size: 15px;
   margin: 30px 20px;
   border-radius: 1px;
-  background-color: #ffffff4f;
+  background-color: #ffffff28;
   color: white;
-  border: none;
+  border: solid 1px white;
   font-family: 'Montserrat', sans-serif;
-  font-weight: 200;
+  font-weight: 300;
 }
 .button_services {
   display: flex;
-  padding: 10px 40px;
-  font-size: 18px;
+  padding: 10px 60px;
+  font-size: 15px;
   margin: 30px 20px;
   border-radius: 1px;
-  background-color: ;
+  background-color: #b79492;
   color: white;
   border: none;
   font-family: 'Montserrat', sans-serif;
-  font-weight: 200;
+  font-weight: 300;
 }
 
-.button_contact:hover,
-.button_services:hover {
+.button_services:hover,
+.button_contact:hover {
   cursor: pointer;
-  background-color: #afba95ca;
-  border: solid 1px #afba95d2;
+  background-color: white;
+  color: black;
 }
