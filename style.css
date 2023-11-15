@@ -199,4 +199,22 @@
   text-align: center;
 }
 .summary-title {
+  font-size: 25px;
+  padding-bottom: 30px;
+  font-weight: 400;
+}
+.summary-text {
+  font-size: 15px;
+  font-weight: 200;
+}
+.small-button_summary {
+  padding: 10px 60px;
+  font-size: 15px;
+  margin: 30px 20px;
+  border-radius: 1px;
+  background-color: #ffffff4f;
+  color: black;
+  border: solid 1px white;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
 }
