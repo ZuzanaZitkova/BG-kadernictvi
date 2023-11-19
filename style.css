@@ -182,13 +182,13 @@
 
 .hero_business-summary {
   padding: 40px;
-  max-width: 1400px;
   margin: 0 auto;
   display: block;
+  background-color: #b794929d;
 }
 .business_summary-content {
   display: flex;
-  margin: 100px 0px 80px 0px;
+  margin: 100px auto;
 }
 
 .services_summary,
@@ -206,6 +206,7 @@
 .summary-text {
   font-size: 15px;
   font-weight: 200;
+  max-width: 300px;
 }
 .small-button_summary {
   padding: 10px 60px;
@@ -217,4 +218,11 @@
   border: solid 1px white;
   font-family: 'Montserrat', sans-serif;
   font-weight: 300;
+}
+
+.small-button_summary:hover {
+  background-color: #b79492;
+  color: white;
+  border: 1px solid #b79492;
+  cursor: pointer;
 }
