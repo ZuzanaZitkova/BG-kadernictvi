@@ -189,7 +189,7 @@
 .business_summary-content {
   display: flex;
   margin: 20px 0px 20px 0px;
-  background-color: rgba(255, 255, 255, 0.582);
+  background-color: rgba(255, 255, 255, 0.702);
   padding: 30px 20px 30px 20px;
   box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.2), 0 4px 16px 0 rgba(0, 0, 0, 0.19);
 }
@@ -216,16 +216,16 @@
   font-size: 15px;
   margin: 30px 20px;
   border-radius: 1px;
-  background-color: #ffffff72;
-  color: black;
-  border: solid 1px white;
+  background-color: #c88582a7;
+  color: white;
+  border: solid 2px #c8858200;
   font-family: 'Montserrat', sans-serif;
   font-weight: 300;
 }
 
 .small-button_summary:hover {
-  background-color: #ad76a8d5;
-  color: white;
-  border: 1px solid #c09e9d;
+  background-color: #ffffff92;
+  color: black;
+  border: 2px solid white;
   cursor: pointer;
 }
