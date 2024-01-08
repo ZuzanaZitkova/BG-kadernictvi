@@ -41,8 +41,9 @@
   padding: 0px 20px;
   display: block;
 }
-.navbar-links li a:hover {
-  color: #afba95;
+.navbar-links li:hover {
+  cursor: pointer;
+  font-weight: 500;
 }
 
 /*toggle bar and button styling*/
@@ -164,7 +165,7 @@
   font-size: 15px;
   margin: 30px 20px;
   border-radius: 1px;
-  background-color: #b79492;
+  background-color: #c19659;
   color: white;
   border: none;
   font-family: 'Montserrat', sans-serif;
@@ -184,13 +185,14 @@
   padding: 40px;
   margin: 0 auto;
   display: block;
-  background-color: #b79492a7;
+  background-color: white;
+  color: white;
 }
 .business_summary-content {
   display: flex;
-  margin: 20px 0px 20px 0px;
-  background-color: rgba(255, 255, 255, 0.702);
-  padding: 30px 20px 30px 20px;
+  margin: 40px 10px 40px 10px;
+  background-color: #385249c9;
+  padding: 70px 20px 70px 20px;
   box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.2), 0 4px 16px 0 rgba(0, 0, 0, 0.19);
 }
 
@@ -216,7 +218,7 @@
   font-size: 15px;
   margin: 30px 20px;
   border-radius: 1px;
-  background-color: #c88582a7;
+  background-color: #fbc77ed0;
   color: white;
   border: solid 2px #c8858200;
   font-family: 'Montserrat', sans-serif;
@@ -224,8 +226,40 @@
 }
 
 .small-button_summary:hover {
-  background-color: #ffffff92;
+  background-color: white;
   color: black;
   border: 2px solid white;
   cursor: pointer;
+}
+
+/*styling of about section on home page*/
+.hero_about-summary {
+  font-family: 'Montserrat', sans-serif;
+  display: grid;
+  grid-template-columns: 1.3fr 0.7fr;
+  grid-gap: 10px;
+  padding: 20px 40px;
+}
+.hero_about-summary img {
+  max-width: 400px;
+  display: block;
+  margin: 0 auto;
+}
+.about-title {
+  text-align: center;
+}
+.main_title-about {
+  font-size: 40px;
+  margin: 10px 0 0 0;
+  text-transform: uppercase;
+  font-weight: 200;
+}
+.secondary_title-about {
+  margin: 0 0 30px 0;
+  font-weight: 100;
+}
+.about-content {
+  padding: 90px;
+  line-height: 2;
+  font-weight: 250;
 }
